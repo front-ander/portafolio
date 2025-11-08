@@ -4,8 +4,8 @@ import { Header } from "@/components/header";
 import { PageWrapper } from "@/components/page-wrapper";
 
 export const metadata: Metadata = {
-  title: "Pagina Personal ",
-  description: "Pagina Personal de Luis Cortes",
+  title: "Portafolio - Anderson ",
+  description: "Pagina Personal",
 };
 
 export default function RootLayout({

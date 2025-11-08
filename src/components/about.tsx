@@ -41,7 +41,7 @@ export function About() {
           <div className="w-96 h-[32rem] lg:w-[30rem] lg:h-[40rem] overflow-hidden rounded-3xl shadow-2xl">
             <img
               src="/me2.jpg"
-              alt="Luis Cortés"
+              alt="Anderson"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -68,11 +68,11 @@ export function About() {
                  opacity: 0 
                }}>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
-              Luis Cortés
+              Anderson Harold
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Estudiante de Inteligencia Artificial en sus últimos semestres en
-              la Universidad Autónoma del Estado de Morelos. Apasionado por la
+              Estudiante de ingeneria de sistemas en sus ultimos ciclos en
+              la Universidad Tecnologica Del Peru. Apasionado por la
               programación, el desarrollo web y la ciencia de datos.
             </p>
           </div>
@@ -88,11 +88,10 @@ export function About() {
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  Universidad Autónoma del Estado de Morelos (UAEM)
+                  Universidad Tecnologica Del Peru (UTP)
                 </span>
               </p>
-              <p className="text-sm hover:text-gray-900 transition-colors">Licenciatura en Inteligencia Artificial</p>
-              <p className="text-sm hover:text-gray-900 transition-colors">Actualmente estudiando</p>
+              <p className="text-sm hover:text-gray-900 transition-colors">Ingeniería de Sistemas e Informática</p>
             </div>
           </div>
 
@@ -107,13 +106,15 @@ export function About() {
             <div className="space-y-2 text-gray-600">
               <p className="hover:text-gray-900 transition-colors">
                 <span className="font-semibold">
-                  Asistente en Investigación
+                  Practicante Soporte Ti-Redes
                 </span>{" "}
-                - UAEM CINC Morelos
+                  <span className="font-semibold">
+                    (MPP Piura)
+                    </span>{""}
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">
-                Proyectos en Ciencia de Datos y su aplicación en Series de
-                Tiempo (EEG, MEG, fMRI, Ritmo Cardíaco)
+                Proyecto de sistema de inventario y control de activos
+                informáticos.
               </p>
               <p className="text-sm hover:text-gray-900 transition-colors">2025 – Actualmente</p>
             </div>
@@ -129,9 +130,9 @@ export function About() {
             </h4>
             <div className="flex flex-wrap gap-2">
               {[
-                "Python",
-                "AI/ML",
-                "PyTorch",
+                "Java",
+                "Laravel",
+                "Spring",
                 "TypeScript",
                 "React",
                 "Node.js",

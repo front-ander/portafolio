@@ -30,32 +30,32 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Penguin Academy",
+      title: "Pythagorean school",
       description:
-        "Plataforma educativa especializada en Inteligencia Artificial, programación y matemáticas aplicadas.",
-      technologies: ["Next.js", "React", "TypeScript", "Tailwind"],
-      demo: "https://www.penguinmy.xyz/",
-      image: "/proyecto1.png",
-      showOnlyDemo: true,
+        "Plataforma educativa especializada en enseñanza de matemáticas, ofreciendo cursos interactivos.",
+      technologies: ["Jsp", "Servlets", "css", "Javascript"],
+      github: "https://github.com/front-ander/ColegioPitagoras",
+      image: "/cole11.jpeg",
+      showOnlyDemo: false,
     },
     {
       id: 2,
-      title: "TREEJS",
+      title: "Bernal School of Piura",
       description:
-        "Aplicación web interactiva con animaciones 3D creadas con ThreeJS.",
-      technologies: ["ThreeJS", "JavaScript", "WebGL", "3D"],
-      demo: "https://treejsprojects.vercel.app/",
-      image: "/proyecto2.png",
-      showOnlyDemo: true,
+        "Este proyecto es una aplicación web sistema de gestion escolar para el Colegio Bernal de Piura.",
+      technologies: ["Spring Boot", "JavaScript", "Thymeleaf", "MySQL"],
+      github: "https://github.com/front-ander/GestionEscolar",
+      image: "/cole12.jpeg",
+      showOnlyDemo: false,
     },
     {
       id: 3,
-      title: "Entropy Evolve",
+      title: "Page for disabled people",
       description:
-        "Sistema de automejora para agentes de IA, diseñado para dominios complejos con ingeniería de software como caso de prueba.",
-      technologies: ["Python", "AI", "Machine Learning"],
-      github: "https://github.com/luisjosuecortes/EntropyEvolve",
-      image: "/proyecto3.png",
+        "Pagina Web de Discapacitados Visuales para facilitar su acceso a la información y servicios.",
+      technologies: ["Jsp", "Apis", "JavaScript", "Servlets"],
+      github: "https://github.com/front-ander/PaginaParaDiscapacitados",
+      image: "/ojos1.jpeg",
       showOnlyDemo: false,
     },
   ];
@@ -82,7 +82,7 @@ export function Projects() {
           {projects.map((project, index) => (
             <a
               key={project.id}
-              href={project.showOnlyDemo ? project.demo : project.github}
+              href={project.github ? project.github : project.github}
               target="_blank"
               rel="noopener noreferrer"
               className={`group bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:border-gray-900 transition-all duration-500 hover:-translate-y-2 transform cursor-pointer block ${

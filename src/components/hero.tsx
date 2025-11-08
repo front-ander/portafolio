@@ -60,7 +60,7 @@ export function Hero() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight transform transition-all duration-700 hover:scale-105">
               Hola, soy{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 animate-pulse">
-                Luis
+                Anderson
               </span>
             </h1>
 
@@ -76,14 +76,14 @@ export function Hero() {
           </div>
 
           <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed max-w-xl mx-auto lg:mx-0 font-light tracking-wide transform transition-all duration-700 hover:translate-x-2 hover:text-gray-900">
-            Soy estudiante de <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Inteligencia Artificial</span> y desarrollador web. Me
+            Soy estudiante de <span className="font-semibold text-gray-900 bg-gradient-to-r from-gray-100 to-transparent px-2 py-1 rounded">Ingeneria de Sistemas</span> y desarrollador web. Me
             apasiona crear, aprender y llevar mis ideas a la realidad a través
             de la programación y creatividad.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-up-delay-400 justify-center lg:justify-start">
             <a 
-              href="https://instagram.com/luiscortespenguin"
+              href="https://www.instagram.com/and.xt20/"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-white border-2 border-black text-black px-6 py-3 sm:px-8 sm:py-4 rounded-full flex items-center justify-center gap-2 sm:gap-3 hover:bg-black hover:text-white hover:scale-105 hover:rotate-1 transition-all duration-300 shadow-lg hover:shadow-2xl cursor-pointer text-sm sm:text-base"
@@ -105,7 +105,7 @@ export function Hero() {
               <span className="font-medium">Contratar</span>
             </a>
             <a 
-              href="/cv.pdf" 
+              href="/.."
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full flex items-center justify-center gap-2 sm:gap-3 hover:bg-gray-800 hover:scale-105 hover:rotate-1 transition-all duration-300 shadow-lg hover:shadow-2xl cursor-pointer text-sm sm:text-base"
@@ -135,7 +135,7 @@ export function Hero() {
             </p>
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="https://instagram.com/luiscortespenguin"
+                href="https://www.instagram.com/and.xt20/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-pink-500 transition-all hover:scale-125 hover:rotate-12 transform duration-300"
@@ -150,7 +150,7 @@ export function Hero() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/in/luis-cort%C3%A9s-penguin/"
+                href="https://www.linkedin.com/in/anderson-harold-oliva-seminario-50a85131a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-600 transition-all hover:scale-125 hover:rotate-12 transform duration-300"
@@ -165,7 +165,7 @@ export function Hero() {
                 </svg>
               </a>
               <a
-                href="https://github.com/luisjosuecortes"
+                href="https://github.com/front-ander"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-900 transition-all hover:scale-125 hover:rotate-12 transform duration-300"
@@ -185,12 +185,12 @@ export function Hero() {
 
         {/* Columna derecha - Imagen */}
         <div className="flex justify-center lg:justify-end animate-fade-up-delay-600">
-          <div className="group relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[32rem] lg:h-[32rem] xl:w-[36rem] xl:h-[36rem]">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-50 to-gray-200 rounded-3xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300 border border-gray-100" />
+          <div className="group relative w-48 h-48 sm:w-64 sm:h-64 lg:w-[24rem] lg:h-[24rem] xl:w-[28rem] xl:h-[28rem]">
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-50 to-gray-200 rounded-3xl shadow-1xl transform group-hover:scale-105 transition-transform duration-300 border border-gray-100" />
             <div className="absolute inset-3 sm:inset-4 rounded-2xl overflow-hidden pointer-events-none">
               <img
-                src="/me.jpg"
-                alt="Luis"
+                src="/ander.jpeg"
+                alt="Ander"
                 className="w-full h-full object-contain"
               />
             </div>
